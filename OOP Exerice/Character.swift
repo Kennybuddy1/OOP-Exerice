@@ -25,9 +25,15 @@ class Character{
         }
     }
     
-    init(hp: Int, attackPwr: Int) {
-        self._hp = hp
+    init(startinghp: Int, attackPwr: Int) {
+        self._hp = startinghp
         self._attackpwr = attackPwr
     }
     
+    func attemptAttack(attackPwr: Int) -> Bool {
+        self._hp -= attackPwr
+        
+        return true
+    }
+
 }

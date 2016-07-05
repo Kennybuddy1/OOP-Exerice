@@ -18,7 +18,7 @@ class Player2: Character {
     }
     
     convenience init(name: String, hp: Int, attackPwr: Int) {
-        self.init(name:name, hp: hp, attackPwr: attackPwr)
+        self.init(startinghp: hp, attackPwr: attackPwr)
         _name = name
     }
 }
