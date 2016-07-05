@@ -14,6 +14,7 @@
 		3E9AAD7E1D2C254100A521DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9AAD7C1D2C254100A521DF /* LaunchScreen.storyboard */; };
 		3E9AAD891D2C254100A521DF /* OOP_ExericeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9AAD881D2C254100A521DF /* OOP_ExericeTests.swift */; };
 		3E9AAD941D2C254100A521DF /* OOP_ExericeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9AAD931D2C254100A521DF /* OOP_ExericeUITests.swift */; };
+		3E9AADA21D2C260A00A521DF /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E9AADA11D2C260A00A521DF /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3E9AAD8F1D2C254100A521DF /* OOP ExericeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OOP ExericeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9AAD931D2C254100A521DF /* OOP_ExericeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOP_ExericeUITests.swift; sourceTree = "<group>"; };
 		3E9AAD951D2C254100A521DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9AADA11D2C260A00A521DF /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3E9AAD721D2C254100A521DF /* OOP Exerice */ = {
 			isa = PBXGroup;
 			children = (
+				3E9AADA11D2C260A00A521DF /* Minecraft.ttf */,
 				3E9AAD731D2C254100A521DF /* AppDelegate.swift */,
 				3E9AAD751D2C254100A521DF /* ViewController.swift */,
 				3E9AAD771D2C254100A521DF /* Main.storyboard */,
@@ -240,6 +243,7 @@
 			files = (
 				3E9AAD7E1D2C254100A521DF /* LaunchScreen.storyboard in Resources */,
 				3E9AAD7B1D2C254100A521DF /* Assets.xcassets in Resources */,
+				3E9AADA21D2C260A00A521DF /* Minecraft.ttf in Resources */,
 				3E9AAD791D2C254100A521DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
